@@ -49,8 +49,8 @@ rl.question("How can i help you today?", async (userPrompt) => {
         headers: {
           Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
           "Content-Type": "application/json",
-          "HTTP-Referer": "http://localhost", // optional but recommended
-          "X-Title": "AI Moderation Demo", // optional
+          "HTTP-Referer": "http://localhost",
+          "X-Title": "AI Moderation Demo",
         },
       }
     );
