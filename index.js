@@ -4,8 +4,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 // models
-const MODEL = "meta-llama/llama-3.2-3b-instruct:free"; // Free model
-// const MODEL = "mistralai/mistral-7b-instruct"; // Original model
+// const MODEL = "meta-llama/llama-3.2-3b-instruct:free"; // Free model
+const MODEL = "mistralai/mistral-7b-instruct"; // Original model
 // const MODEL = "google/gemma-2-9b-it:free"; // Another free option
 
 // Banned Keywords
